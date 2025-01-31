@@ -1,6 +1,6 @@
 units=int(input("Please enter number the number of Units you consumed"))
 if(units<50):
-  amounts=units=2.60
+  amounts=units*2.60
   surcharge=25
 elif(units<=100):
  amount=130 +((units-50)*3.25)

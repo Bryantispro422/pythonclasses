@@ -1,4 +1,4 @@
-height=float(input("Enter your height in cm:"))
+
 
 print("Your BMI is ",BMI)
 
@@ -10,7 +10,7 @@ elif BMI <=29.9:
   print("You are over weight!")
 elif BMI <=34.9:
   print("You are severely over weight")
-elif BMI <=39.9:
+elif BMI <=39.9:height=float(input("Enter your height in cm:"))
   print("You are obese")
 else: 
   print("You areseverely obese")
