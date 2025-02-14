@@ -1,4 +1,4 @@
-n=int(input("Enter the value of terms:"))
+intn=int("Enter the value of terms:"))
 
 sum=0
 i=1
